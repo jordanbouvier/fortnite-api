@@ -28,7 +28,7 @@ $user = $fortnite->lookup('username');
 
 ### Get Stats
 ```php
-$fortnite->stats($user, $plateform, $window);
+$stats $fortnite->stats($user, $plateform, $window);
 ```
 Available window : 'weekly' or 'alltime' | default 'alltime'
 Available plateform: 'pc', 'xb1', 'ps4' 
@@ -37,17 +37,17 @@ Available plateform: 'pc', 'xb1', 'ps4'
 ### Get store
 ```php
 //RAW DATA
-$fortnite->store();
+$store = $fortnite->store();
 ```
 
 ### Get news
 ```php
 //RAW DATA
-$fortnite->news('english);
+$news = $fortnite->news('english);
 ```
 Available languages : 'english','french','russian','italian','spanish','polish', 'portuguese','german','japanese'
 
 ### Get status
 ```php
-$fortnite->status();
+$status = $fortnite->status();
 ```
