@@ -1,0 +1,21 @@
+{
+    "name": "jordan/fortniteApi",
+    "description": "PHP library to get data from fortnite api",
+    "keywords": ["fortnite", "php", "package"],
+    "authors": [
+        {
+            "name": "Jordan Bouvier",
+            "email": "jordanbouvierpro@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+	"autoload": {
+        "psr-4": {
+            "FortniteApi\\": "src/"
+        }
+    }
+}
