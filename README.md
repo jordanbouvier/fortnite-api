@@ -48,6 +48,6 @@ $fortnite->news('english);
 Available languages : 'english','french','russian','italian','spanish','polish', 'portuguese','german','japanese'
 
 ### Get status
-````php
+```php
 $fortnite->status();
 ```
