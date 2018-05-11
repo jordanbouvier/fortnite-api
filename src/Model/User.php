@@ -29,7 +29,7 @@ class User
      */
     public function getUsername():string
     {
-      return $this->getUsername();
+      return $this->username;
     }
 
     /**
