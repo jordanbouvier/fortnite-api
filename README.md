@@ -28,7 +28,7 @@ $user = $fortnite->lookup('username');
 
 ### Get Stats
 ```php
-$stats $fortnite->stats($user, $plateform, $window);
+$stats = $fortnite->stats($user, 'plateform', 'window');
 ```
 Available window : 'weekly' or 'alltime' | default 'alltime'
 Available plateform: 'pc', 'xb1', 'ps4' 
