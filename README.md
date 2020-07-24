@@ -1,4 +1,4 @@
-# Fortnite API
+# Fortnite API (doesn't work anymore)
 
 My personal PHP "library" to access Fortnite api
 
